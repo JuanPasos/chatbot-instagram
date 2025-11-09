@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: instagram-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python instagram_bot.py
+    plan: free
+    envVars:
+      PORT: 10000

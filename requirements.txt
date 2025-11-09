@@ -1,0 +1,8 @@
+flask
+requests
+langchain
+langchain-community
+langchain-ollama
+langchain-chroma
+chromadb
+pypdf2
