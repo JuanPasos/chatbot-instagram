@@ -14,7 +14,7 @@ app = Flask(__name__)
 # === TUS DATOS DE META (LLÉNALOS) ===
 VERIFY_TOKEN = "chocholis"                    # ← Igual que en Meta
 IG_USER_ID = "17841405822304914"                           # ← Tu ID de Instagram
-ACCESS_TOKEN = "IGAAgweXRBIktBZAFJweFpDcEtGYXRmY2RsNHM4QkJVaTdmQnJzV1pzRURObEdNSTgxam4xX1BYSnZAuejJicDhHWFNINUhNOVAwT0dITlQzNEdFcV93RlBpSHZATalkyQnI0M0d2SUlkNWZAWUng4SVo1YXQxREdyM2JOQkEyU0VnSQZDZD"                # ← Token de 60 días con instagram_manage_messages
+ACCESS_TOKEN = "EAAMBUWmFmgMBP3GOmkR8dUhW7XdSv52cKDZAKfzJsQd4JsN6yIJwgdzaNP2TyXfnajBs3vVexizbAP59PtHuvdAm4yXoR18R5Puro75eekMTgENclZCLNcm3ZAAcx2FcdWDCJ7X0gaiuyelsDpsn8wlfUxMOEbNWjn82r7arFebLTkSqfqkGqXZBxYzE3uRtTsEgmPGNSgFheRdeCda1N4sgbPtt8tZBhvl5tlwZDZD"                # ← Token de 60 días con instagram_manage_messages
 
 # === RUTA PRINCIPAL (PARA VER SI LA APP ESTÁ VIVA) ===
 @app.route('/')
@@ -101,3 +101,4 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
     logger.info(f"Iniciando bot en puerto {port}")
     app.run(host='0.0.0.0', port=port, debug=False)
+
